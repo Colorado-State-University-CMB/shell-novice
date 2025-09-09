@@ -49,32 +49,40 @@ $ pwd
 ~~~
 {: .language-bash}
 
+<mark style="background-color: #CCFF00;">This output is going to be different than a user's home directory (such as on a Mac).</mark>
+
 ~~~
-/Users/nelle
+/workspaces/shell-novice
 ~~~
 {: .output}
 
 Here,
-the computer's response is `/Users/nelle`,
-which is Nelle's **home directory**:
+the computer's response is `/workspaces/shell-novice` because we are in a cloud environment. 
+
+<mark style="background-color: #CCFF00;">NOTE: This has been adapted and expanded.</mark> 
 
 > ## Home Directory Variation
 >
+> On your *personal computer* or a *server such as BioHPC*, you start in your home directory instead of a workspace directory. 
+> Since we are Nelle in this story for the purposes of this 
+> tutorial, a Mac would show `/Users/nelle`.  On a PC, it  would be 
+> `C:\Home\Nelle`.  
 > The home directory path will look different on different operating systems.
 > On Linux, it may look like `/home/nelle`,
 > and on Windows, it will be similar to `C:\Documents and Settings\nelle` or
 > `C:\Users\nelle`.
 > (Note that it may look slightly different for different versions of Windows.)
-> In future examples, we've used Mac output as the default - Linux and Windows
-> output may differ slightly but should be generally similar.
->
-> We will also assume that your `pwd` command returns your user's home directory.
+> ## Codespace variation (this tutorial)
+> 
+> On codespace, although we are in linux, the organization is different and 
+> your `pwd` should be `/workspaces/shell-novice`.
 > If `pwd` returns something different, you may need to navigate there using `cd`
 > or some commands in this lesson will not work as written.
 > See [Exploring Other Directories](#exploring-other-directories) for more details
 > on the `cd` command.
 {: .callout}
 
+<mark style="background-color: #CCFF00;">Should we keep on the home directory lesson?</mark>
 To understand what a 'home directory' is,
 let's have a look at how the file system as a whole is organized.  For the
 sake of this example, we'll be
@@ -82,6 +90,7 @@ illustrating the filesystem on our scientist Nelle's computer.  After this
 illustration, you'll be learning commands to explore your own filesystem,
 which will be constructed in a similar way, but not be exactly identical.
 
+<mark style="background-color: #CCFF00;">NOTE: we could compare the codespace filesystem with home directories and mark new figures</mark>
 On Nelle's computer, the filesystem looks like this:
 
 ![The file system is made up of a root directory that contains sub-directories
@@ -130,12 +139,12 @@ your home directory to start.
 
 Now let's learn the command that will let us see the contents of our
 own filesystem.  We can see what's in our home directory by running `ls`:
-
+<mark style="background-color: #CCFF00;">NOTE: this is off-topic for the codespace tutorial and might be confusing.</mark>
 ~~~
 $ ls
 ~~~
 {: .language-bash}
-
+<mark style="background-color: #CCFF00;">NOTE: Mac default home dir.</mark>
 ~~~
 Applications Documents    Library      Music        Public
 Desktop      Downloads    Movies       Pictures
@@ -211,6 +220,7 @@ $ ls --help
 ~~~
 {: .language-bash}
 
+<mark style="background-color: #CCFF00;">NOTE: luckily, this is the GNU coreutils ls usage message instead of the BSD ls that ships with Macs.</mark>
 ~~~
 Usage: ls [OPTION]... [FILE]...
 List information about the FILEs (the current directory by default).

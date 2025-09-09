@@ -78,6 +78,10 @@ Let's get started.
 When the shell is first opened, you are presented with a **prompt**,
 indicating that the shell is waiting for input.
 
+#### Problem: No one's prompt ever defaults to this
+
+We could set it, or we could show them what theirs would look like.
+
 ~~~
 $
 ~~~
@@ -97,6 +101,10 @@ You may have seen it in a text editor program, for example.
 
 So let's try our first command, `ls`, which is short for listing.
 This command will list the contents of the current directory:
+
+#### PROBLEM: On a Mac
+
+**TODO: Adapt the environment to be cleaner and reflect the codespace environment.**
 
 ~~~
 $ ls

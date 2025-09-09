@@ -16,6 +16,9 @@ automating repetitive tasks, and its capacity to access networked machines."
 - "The shell's main disadvantages are its primarily textual nature and how
 cryptic its commands and operation can be."
 ---
+
+NOTE: This is a modification to test a fork on codespaces.
+
 ### Background
 
 Humans and computers commonly interact in many different ways, such as through a keyboard and mouse,

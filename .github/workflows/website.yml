@@ -2,9 +2,8 @@ name: Website
 on:
   push:
     branches:
-      - gh-pages
+      - codespace-lessons
       - main
-  pull_request: []
 jobs:
   build-website:
     if: ${{ !endsWith(github.repository, '/styles') }}
@@ -92,30 +91,30 @@ jobs:
         run: make site
 
       - name: Checkout github pages
-        if: ${{ github.event_name == 'push' && steps.check-rmd.outputs.count != 0 && github.ref != 'refs/heads/gh-pages'}}
+        if: ${{ github.event_name == 'push' && steps.check-rmd.outputs.count != 0 && github.ref != 'refs/heads/codespace-lessons'}}
         uses: actions/checkout@master
         with:
-          ref: gh-pages
-          path: gh-pages
+          ref: codespace-lessons
+          path: codespace-lessons
 
       - name: Commit and Push
-        if: ${{ github.event_name == 'push' && steps.check-rmd.outputs.count != 0 && github.ref != 'refs/heads/gh-pages'}}
+        if: ${{ github.event_name == 'push' && steps.check-rmd.outputs.count != 0 && github.ref != 'refs/heads/codespace-lessons'}}
         run: |
-          # clean up gh-pages
-          cd gh-pages
+          # clean up codespace-lessons
+          cd codespace-lessons
           git rm -rf .           # remove all previous files
           git restore --staged . # remove things from the stage
           cd ..
-          # copy everything into gh-pages site
-          cp -r `ls -A | grep -v 'gh-pages' | grep -v '.git' | grep -v '.bundle/' | grep -v '_site'` gh-pages
-          # move into gh-pages, add, commit, and push
-          cd gh-pages
+          # copy everything into codespace-lessons site
+          cp -r `ls -A | grep -v 'codespace-lessons' | grep -v '.git' | grep -v '.bundle/' | grep -v '_site'` codespace-lessons
+          # move into codespace-lessons, add, commit, and push
+          cd codespace-lessons
           # setup git
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add -A .
           git commit --allow-empty -m "[Github Actions] render website (via ${{ github.sha }})"
-          git push origin gh-pages
+          git push origin codespace-lessons
           # return
           cd ..
 

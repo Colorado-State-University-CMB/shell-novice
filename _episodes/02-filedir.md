@@ -338,6 +338,8 @@ To **quit** the `man` pages, press <kbd>Q</kbd>.
 
 ### Exploring Other Directories
 
+<mark style="background-color: #CCFF00;">REPLACE: with a codespace example</mark>
+
 Not only can we use `ls` on the current working directory,
 but we can use it to list the contents of a different directory.
 Let's take a look at our `Desktop` directory by running `ls -F Desktop`,
@@ -373,6 +375,7 @@ Organizing things hierarchically in this way helps us keep track of our work:
 it's possible to put hundreds of files in our home directory,
 just as it's possible to pile hundreds of printed papers on our desk,
 but it's a self-defeating strategy.
+<mark style="background-color: #CCFF00;">NOTE: this needs to be completely rewritten for the codespace and repo file/dir contents</mark>
 
 Now that we know the `shell-lesson-data` directory is located in our Desktop directory, we
 can do two things.
@@ -761,8 +764,11 @@ doesn't exist. Also, capitalization can be important.
 For example, `ls -s` will display the size of files and directories alongside the names,
 while `ls -S` will sort the files and directories by size, as shown below:
 
+<mark style="background-color: #CCFF00;">BACK TO THE MATERIALS</mark>
+
+
 ~~~
-$ cd ~/Desktop/shell-lesson-data
+$ cd /workspaces/shell-novice/shell-lesson-data
 $ ls -s exercise-data
 ~~~
 {: .language-bash}
@@ -790,6 +796,8 @@ animal-counts  creatures  alkanes  writing  numbers.txt
 Putting all that together, our command `ls -F /` above gives us a listing
 of files and directories in the root directory `/`.
 An example of the output you might get from the above command is given below:
+
+<mark style="background-color: #CCFF00;">FRUSTRATION: Back to a Mac example</mark>
 
 ~~~
 $ ls -F /

@@ -38,7 +38,7 @@ $ pwd
 {: .language-bash}
 
 ~~~
-/Users/nelle/Desktop/shell-lesson-data
+/workspaces/shell-novice/shell-lesson-data
 ~~~
 {: .output}
 
@@ -160,6 +160,8 @@ data/  results/
 ### Create a text file
 Let's change our working directory to `thesis` using `cd`,
 then run a text editor called Nano to create a file called `draft.txt`:
+
+<mark style="background-color: #CCFF00;">NOTE: This part is kind of crazy since we have VS code in the browser.  We have to stress that it won't be available on linux servers.</mark>
 
 ~~~
 $ cd thesis
@@ -317,7 +319,7 @@ draft.txt
 Returning to the `shell-lesson-data/exercise-data/writing` directory,
 
 ```
-$ cd ~/Desktop/shell-lesson-data/exercise-data/writing
+$ cd /workspaces/shell-novice/shell-lesson-data/exercise-data/writing/thesis
 ```
 {: .language-bash}
 
@@ -512,7 +514,12 @@ quotations.txt
 > > 4. No, the period(.) indicates where to copy the file, but does not provide a new file name;
 > > identical file names cannot be created.
 > {: .solution}
+
+
+<mark style="background-color: #CCFF00;">HERE is a "challenge" where the directory structure is hypothetical and they have to figure out the answer. Maybe change minimally if at all.</mark>
+
 {: .challenge}
+
 
 > ## Moving and Copying
 >

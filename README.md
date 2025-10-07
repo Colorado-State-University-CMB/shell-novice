@@ -5,11 +5,13 @@
 shell-novice
 ============
 
+**This is a fork that modifies the lesson to use github codespaces**
+
 An introduction to the Unix shell for people who have never used the command line before.
-Please see <https://swcarpentry.github.io/shell-novice/> for a rendered version of this material,
-[the lesson template documentation][lesson-example]
-for instructions on formatting, building, and submitting material,
-or run `make` in this directory for a list of helpful commands.
+
+## Environment
+
+Go to [this link](https://github.com/codespaces?repository_id=623158525) and click on the codespace labelled "shell novice". It will take a few moments to initialize.
 
 ## Maintainers
 

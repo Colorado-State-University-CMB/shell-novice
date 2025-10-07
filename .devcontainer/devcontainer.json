@@ -1,4 +1,5 @@
 {
   "name": "Shell Novice",
   "workspaceFolder": "/workspaces/shell-novice/shell-lesson-data",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu"
 }

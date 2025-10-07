@@ -11,9 +11,49 @@ An introduction to the Unix shell for people who have never used the command lin
 
 ## Environment
 
-Go to [this link](https://github.com/codespaces?repository_id=623158525) and click on the codespace labelled "shell novice". It will take a few moments to initialize.
+**START HERE**
 
-## Maintainers
+Go to [this link](https://github.com/codespaces?repository_id=623158525) and click on the codespace labelled "shell novice codespace". This will take you to VS Code in your web browser.
+
+* **Note**: It will take a few moments to initialize.
+* This is a learning environment! **It is not suitable for processing big data**
+
+
+### Getting Started with VS Code
+<span style="background-color: yellow; font-weight: bold;">TODO:</span>Add screenshots for VS Code. What to expect. Anatomy of the panes.
+
+#### Window panes and menus ####
+
+VS Code is a Microsoft product that can be downloaded for free. It is also integrated in the web browser for github codespaces. This allows us to all be in the same environment, regardless of our laptop operating system.
+
+**Explorer**
+
+On the left hand side of the window, you will see something like the following:
+
+<img src="assets/img/Explorer_pane_VS_code.png" alt="VS Code explorer pane" width="20%">
+
+Notice the icon <img src="assets/img/Explorer_Pane_Icon.png" width="3%"> has a dark border on the left side. That indicates
+that the file Explorer is currently active and showing its contents in that pane.
+
+You may click on the other icons to see what they load into the left pane, but we won't be using them much (or at all) in this lesson.  Make sure you click on the file Explorer icon again when you're done looking around.
+
+#### TERMINAL ####
+
+**The prompt**
+
+```
+@meekrob ➜ /workspaces/shell-novice (codespace-lessons) $ 
+ |      |  |                      | |                 |   |                   |
+  github     the current working        repository         your typing appears
+ username        directory                branch                  here
+```
+
+## Maintainers 
+
+### codespace fork
+* David King
+
+### original project
 
 * [Gerard Capes][gerard_capes]
 * [Jacob Deppen][jacob_deppen]

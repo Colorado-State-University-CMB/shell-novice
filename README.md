@@ -11,7 +11,18 @@ An introduction to the Unix shell for people who have never used the command lin
 
 ## Environment
 
-**START HERE**
+We are using the **free tier of github codespaces.** It is a cloud environment that runs containerized software. To see how much usage you are allocated per month, refer to [this page](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces).
+
+For this training, we will be using a two-core compute environment. The current quota for free use is:
+* 120 core-hours (60 hours per month)
+* 15 GB storage
+* If you exceed either quota:
+  *  Usage is blocked *(unless you have a payment method on file)*
+  *  *If payment is setup for your personal account*, you can set your own limits using a budget.
+
+<span style="background-color: yellow;">Go to **[this page](https://github.com/settings/billing) to check your usage!**</span>
+
+### START SETUP HERE
 
 Go to [this link](https://github.com/codespaces?repository_id=623158525) and click on the codespace labelled "shell novice codespace". This will take you to VS Code in your web browser.
 

@@ -20,7 +20,7 @@ For this training, we will be using a two-core compute environment. The current 
   *  Usage is blocked *(unless you have a payment method on file)*
   *  *If payment is setup for your personal account*, you can set your own limits using a budget.
 
-<span style="background-color: yellow;">Go to **[this page](https://github.com/settings/billing) to check your usage!**</span>
+**NOTE:** Check your [current usage](https://github.com/settings/billing) 
 
 ### START SETUP HERE
 

@@ -24,10 +24,12 @@ For this training, we will be using a two-core compute environment. The current 
 
 ### START SETUP HERE
 
+#### 1. Initialize codespace
+
 Go to [this link](https://github.com/codespaces?repository_id=623158525) and click on the codespace labelled "shell novice codespace". This will take you to VS Code in your web browser.
 
 * **Note**: It will take a few moments to initialize.
-* This is a learning environment! **It is not suitable for processing big data**
+* This is a learning environment! **It is not suitable for processing big data** (see quotas above).
 
 
 ### Getting Started with VS Code

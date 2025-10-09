@@ -28,6 +28,8 @@ For this training, we will be using a two-core compute environment. The current 
 
 Go to [this link](https://github.com/codespaces?repository_id=623158525) and click on the codespace labelled "shell novice codespace". This will take you to VS Code in your web browser.
 
+<img src="assets/img/setup_images/codespace_selection_screenshot.png" alt="Codespace view screenshot" >
+
 * **Note**: It will take a few moments to initialize.
 * This is a learning environment! **It is not suitable for processing big data** (see quotas above).
 
